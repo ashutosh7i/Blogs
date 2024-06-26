@@ -31,8 +31,9 @@ connect to your virtual machine using any of the following ways so we can start 
 A. Connect using ssh-
 
 ```bash
-ssh 192.168.1.7@ashutosh ↩️
-yourpassword↩️
+ssh ashutosh@192.168.1.7 ↩️
+fingerprint(yes) ↩️
+yourpassword ↩️
 
 this will start a shell session like-
 
