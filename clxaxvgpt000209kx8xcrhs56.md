@@ -10,10 +10,10 @@ tags: nginx, install-and-configure-nginx, nginx-project, nginx-installation-tuto
 
 ---
 
-**The first question:***Why we need NGINX when we already have Apache httpd?*  
+\*\*The first question:\*\**Why we need NGINX when we already have Apache httpd?*  
 ***Answer:***
 
-While Apache HTTP Server is a powerful and flexible web server, NGINX offers certain advantages that make it a popular choice*(like me😂)* for many use cases:
+While Apache HTTP Server is a powerful and flexible web server, NGINX offers certain advantages that make it a popular choice\*(like me😂)\* for many use cases:
 
 1. **Performance**: NGINX is known for its high performance, especially under heavy load. It uses an event-driven architecture which allows it to handle thousands of concurrent connections with minimal memory usage.
     
@@ -26,12 +26,12 @@ While Apache HTTP Server is a powerful and flexible web server, NGINX offers cer
 5. **Microservices Architecture**: NGINX is often used in modern microservices architectures due to its ability to act as a reverse proxy and load balancer.
     
 
-However, this does not make NGINX superior; Apache httpd has been around for a long time and is **Mature and Reliable***(like me😂)*. My preference is:
+However, this does not make NGINX superior; Apache httpd has been around for a long time and is **Mature and Reliable**\*(like me😂)\*. My preference is:
 
 * * Use Apache httpd when you have a static site like documentation, wikis, etc.
         
-    * Use NGINX when using Node.js, Python, or anything that needs port proxying.
-        
+        * Use NGINX when using Node.js, Python, or anything that needs port proxying.
+            
 
 # Lets Setup NGINX:
 
@@ -54,8 +54,9 @@ connect to your virtual machine using any of the following ways so we can start 
 A. Connect using ssh-
 
 ```bash
-ssh 192.168.1.7@ashutosh ↩️
-yourpassword↩️
+ssh ashutosh@192.168.1.7 ↩️
+fingerprint(yes) ↩️
+yourpassword ↩️
 
 This will start a shell session like this:
 
@@ -288,20 +289,20 @@ Here are some additional tips and tricks:
     * Discard everything and paste this fresh config:
         
     * ```bash
-            server {
-                    listen 80 default_server;
-                    listen [::]:80 default_server;
-            
-                    root /var/www/html;
-            
-                    index index.html;
-            
-                    server_name _;
-            
-                    location / {
-                            try_files $uri $uri/ =404;
-                    }
-            }
+              server {
+                      listen 80 default_server;
+                      listen [::]:80 default_server;
+              
+                      root /var/www/html;
+              
+                      index index.html;
+              
+                      server_name _;
+              
+                      location / {
+                              try_files $uri $uri/ =404;
+                      }
+              }
         ```
         
     * replace the `/var/www/html` with the folder of your choice.
@@ -310,10 +311,10 @@ Here are some additional tips and tricks:
         
 * * 🛠️ **CI pipeline:** Once your project is on the server, you can make changes to it locally, push to GitHub, SSH into the server, and run the `git pull` command to host the latest files.
         
-        * 🔒 **Port and Firewall Settings**: If your website is not showing up, ensure that your firewall allows traffic on port 80 (HTTP) and 443 (HTTPS) for your server. You might need to set up these rules using `ufw`, like `sudo ufw allow http`.
-            
-        * 🏠**Setting Up Server Blocks** Server Blocks in NGINX are similar to Virtual Hosts in Apache. They allow you to host multiple websites/domains on a single server. We will need them when we add SSL and a domain name.
-            
+        \* 🔒 **Port and Firewall Settings**: If your website is not showing up, ensure that your firewall allows traffic on port 80 (HTTP) and 443 (HTTPS) for your server. You might need to set up these rules using `ufw`, like `sudo ufw allow http`.
+        
+        \* 🏠**Setting Up Server Blocks** Server Blocks in NGINX are similar to Virtual Hosts in Apache. They allow you to host multiple websites/domains on a single server. We will need them when we add SSL and a domain name.
+        
 
 ### **Getting Familiar with Important NGINX Files and Directories**
 
