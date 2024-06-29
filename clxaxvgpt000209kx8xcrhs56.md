@@ -10,10 +10,10 @@ tags: nginx, install-and-configure-nginx, nginx-project, nginx-installation-tuto
 
 ---
 
-\*\*The first question:\*\**Why we need NGINX when we already have Apache httpd?*  
+**The first question:** *Why we need NGINX when we already have Apache httpd?*  
 ***Answer:***
 
-While Apache HTTP Server is a powerful and flexible web server, NGINX offers certain advantages that make it a popular choice\*(like me😂)\* for many use cases:
+While Apache HTTP Server is a powerful and flexible web server, NGINX offers certain advantages that make it a popular choice *(like me😂)* for many use cases:
 
 1. **Performance**: NGINX is known for its high performance, especially under heavy load. It uses an event-driven architecture which allows it to handle thousands of concurrent connections with minimal memory usage.
     
@@ -26,11 +26,11 @@ While Apache HTTP Server is a powerful and flexible web server, NGINX offers cer
 5. **Microservices Architecture**: NGINX is often used in modern microservices architectures due to its ability to act as a reverse proxy and load balancer.
     
 
-However, this does not make NGINX superior; Apache httpd has been around for a long time and is **Mature and Reliable**\*(like me😂)\*. My preference is:
+However, this does not make NGINX superior; Apache httpd has been around for a long time and is **Mature and Reliable** *(like me😂)*. My preference is:
 
-* * Use Apache httpd when you have a static site like documentation, wikis, etc.
+* Use Apache httpd when you have a static site like documentation, wikis, etc.
         
-        * Use NGINX when using Node.js, Python, or anything that needs port proxying.
+* Use NGINX when using Node.js, Python, or anything that needs port proxying.
             
 
 # Lets Setup NGINX:
