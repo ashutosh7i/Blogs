@@ -53,7 +53,7 @@ I intentionally made the word “framework” bold because moqui is a framework,
     
 * Complete application monitoring tools to monitor whole and any part of the application.
     
-* *And much more …*
+    *And much more …*
     
 
 ## History of Moqui
