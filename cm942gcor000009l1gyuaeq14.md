@@ -58,17 +58,17 @@ I intentionally made the word “framework” bold because moqui is a framework,
 
 ## History of Moqui
 
-Now after knowing such enormous number of inbuilt features and capabilities, you might doubt from where this project originated from, who made it, when was it made, how was it made, why it was made etc, i don’t know about you but these questions are my primary questions when i see or get introduced to any new technology or tool,
+Now after knowing such enormous number of inbuilt features and capabilities, you might doubt from where this project originated from, who made it, when was it made, how was it made, why it was made etc, i don’t know about you but these questions are my primary questions when i see or get introduced to any new technology or tool.
 
 > For me knowing the history of something makes me feel included and related to the technology in a way that a part of it, the original mindset of the developer stays with me, After knowing answers to these questions, it makes a lot of sense about the code written in the framework.
 > 
 > i am also new to this framework, but i will try to provide answers to these questions as far as i know according to my research.
 
-[​David E. Jones](https://www.linkedin.com/in/jonesde) the creator of Apache [OFBiz,](https://ofbiz.apache.org/) initiated the Moqui Framework project in 2011 to develop a modern, flexible, and open-source ERP and BPM framework. The name "Moqui" is derived from a Native American term referring to the Moqui people, symbolizing adaptability and flexibility. The project aimed to simplify the development of business applications by offering a refined and lightweight codebase compared to its predecessor, Apache OFBiz.
+[​David E. Jones](https://www.linkedin.com/in/jonesde) the creator of Apache [OFBiz,](https://ofbiz.apache.org/) initiated the Moqui Framework project in 2011 to develop a modern, flexible, and open-source ERP framework. The name "Moqui" is derived from a Native American term referring to the Moqui people, symbolizing adaptability and flexibility. The project aimed to simplify the development of business applications by offering a refined and lightweight codebase compared to its predecessor, Apache OFBiz.
 
 Moqui was officially released as an open-source project in 2012 and has since evolved, supported by a dedicated community of developers and users.
 
-Why Moqui? you may ask as there was OFBiz already, well Moqui is capable to doing everything and more than OFBiz with only 40% size of original codebase.
+Why Moqui? you may ask as there was OFBiz already, well Moqui is capable to doing everything and more than OFBiz with only 40% size of original codebase, plus moqui has support for newer technologies like REST-Apis and more.
 
 ## When to use Moqui
 
