@@ -17,7 +17,7 @@ I intentionally made the word “framework” bold because moqui is a framework,
 
 ## Features of Moqui
 
-> use this list to get quick access of moqui capabilities when developing or brainstorming.
+> use this list to get quick access to moqui’s capabilities when developing or brainstorming.
 
 * Moqui runs on Java (no need to panic:) so it can be developed on any machine be it Windows, Mac, or Linux.
     
