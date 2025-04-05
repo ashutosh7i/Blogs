@@ -58,7 +58,7 @@ I intentionally made the word “framework” bold because moqui is a framework,
 
 ## History of Moqui
 
-Now after knowing such enormous number of inbuilt features and capabilities, you might doubt from where this project originated from, who made it, when was it made, how was it made, why it was made etc, i don’t know about yours but these questions are my primary questions when i see or get introduced to any new technology or tool,
+Now after knowing such enormous number of inbuilt features and capabilities, you might doubt from where this project originated from, who made it, when was it made, how was it made, why it was made etc, i don’t know about you but these questions are my primary questions when i see or get introduced to any new technology or tool,
 
 > For me knowing the history of something makes me feel included and related to the technology in a way that a part of it, the original mindset of the developer stays with me, After knowing answers to these questions, it makes a lot of sense about the code written in the framework.
 > 
